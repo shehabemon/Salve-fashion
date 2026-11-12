@@ -3,7 +3,7 @@ A headless luxury e-commerce experience integrating Shopify operations with Sani
 
 ---
 
-**Live demo:** [salvefashion.com](https://salvefashion.com)
+**Live demo:** [Salve Fashion](https://salvefashion.com)
 
 ---
 
