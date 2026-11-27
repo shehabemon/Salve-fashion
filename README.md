@@ -78,7 +78,7 @@ Request for /account -> middleware.ts -> Extract token from Cookie -> Shopify 'V
 
 ## Running locally
 
-1. Ensure you have Node.js version `>=16.0.0` running via `nvm`.
+1. Use Node.js 22.12 or newer (`nvm use` picks it up from `.nvmrc`).
 2. Clone the repository and install the workspace level packages:
 ```bash
 npm install
@@ -86,7 +86,7 @@ npm install
 3. Copy local environment variables into both applications:
 ```bash
 cp apps/next/.env apps/next/.env.local
-cp apps/sanity/.env apps/sanity/.env.local
+cp apps/sanity/.env.example apps/sanity/.env   # then fill in SANITY_STUDIO_ID
 ```
 4. Start both environments securely in parallel using Turborepo:
 ```bash
